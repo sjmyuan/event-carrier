@@ -1,7 +1,7 @@
 lazy val root = (project in file("."))
   .settings(
     name := "event-carrier",
-    organization := "com.sjmyuan",
+    organization := "com.carrier",
     version := "0.0.1-SNAPSHOT",
     scalaVersion := "2.13.6",
     libraryDependencies ++= Seq(
